@@ -79,16 +79,18 @@ a{
 .box{
     height: 50vh;
     width: 100vw;
-    border:2px solid;
+    border:2px solid grey;
     border-color: none;
-    border: none;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px black;
     
 }
 .box h1{
     justify-content: center;
     align-items: center;
-    color: #cd8282;
+    color: blue;
     top: 50%;
     transform: translateY(-50%);
     position: relative;
+    padding-left: 20px;
 }
