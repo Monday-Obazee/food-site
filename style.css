@@ -94,3 +94,14 @@ a{
     position: relative;
     padding-left: 20px;
 }
+form {
+    margin-top: 50px;
+   
+}
+form input{
+    border: none;
+    display: block;
+    padding-top: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
