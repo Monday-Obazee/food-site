@@ -109,3 +109,14 @@ form p{
     display: flex;
     justify-content: center;
 }
+form button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 30%;
+    color: black;
+    background-color: #eee;
+    align-items: center;
+    place-items: center;
+}
