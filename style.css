@@ -120,3 +120,6 @@ form button{
     align-items: center;
     place-items: center;
 }
+form select{
+    margin-top: 20px;
+}
