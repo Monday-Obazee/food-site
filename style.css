@@ -123,3 +123,7 @@ form button{
 form select{
     margin-top: 20px;
 }
+#Menu{
+    border: none;
+    font-size: large;
+}
