@@ -70,11 +70,10 @@ a{
 
 .info{
     display: flex;
+    background-color: #f7f3ef;
     justify-content: space-between;
     margin-top: 100px;
     position: relative
-
-  
 }
 .box{
     height: 50vh;
@@ -90,22 +89,20 @@ a{
     justify-content: center;
     align-items: center;
     color: blue;
-    transform: translateY(-50%);
-    position: relative;
+    position: absolute;
     padding-left: 20px;
+
 }
 .box img{
-    max-width: 400px;
     display: flex;
     justify-content: center;
     place-items: center;
     align-items: center;
+    max-height: 80%;
+    margin: auto;
+    
+}
 
-}
-.secondperson{
-    max-height: 300px;
-    background-color: black;
-}
 form {
     margin-top: 100px;
     margin-bottom: 50px;
