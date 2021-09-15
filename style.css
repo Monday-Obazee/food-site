@@ -127,12 +127,15 @@ a{
     box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
     flex-direction: column;
     min-height: 500px;
+    background-image: url('./special-order.jpg')  no-repeat center center/cover;
 }
 .top-one{
     grid-area: top-one;
     box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
     flex-direction: column;
-    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .top-two{
     grid-area: top-two;
@@ -155,13 +158,12 @@ a{
     margin-top: 180px;
 }
 .btn{
-    display: flex;
-    justify-content:flex-end;
+    /* display: flex;
+    justify-content:flex-end; */
     background-color: black;
     color: white;
     padding: 0.6rem 1.3rem;
     border: none;
-    margin-left: 3rem;
 }
 
 form {
