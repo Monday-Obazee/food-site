@@ -119,6 +119,7 @@ a{
     "showcase top-one top-two"
     "showcase top-three top-four";
     margin-top: 3rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .showcase{
     grid-area: showcase;
@@ -126,8 +127,8 @@ a{
     justify-content: center;
     box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
     flex-direction: column;
-    min-height: 500px;
-    background-image: url('./special-order.jpg')  no-repeat center center/cover;
+    min-height: 700px;
+    background: url('https://res.cloudinary.com/iwanttoknowwhatsavailable/image/upload/v1631709723/special-order_bve54l.jpg')  no-repeat center center/cover;
 }
 .top-one{
     grid-area: top-one;
@@ -136,21 +137,34 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('https://res.cloudinary.com/iwanttoknowwhatsavailable/image/upload/v1631709401/hot_fresh_iiqyjz.jpg')  no-repeat center center/cover;
 }
 .top-two{
     grid-area: top-two;
     box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://res.cloudinary.com/iwanttoknowwhatsavailable/image/upload/v1631709394/toyourtaste_odqzle.jpg')  no-repeat center center/cover;
 }
 .top-three{
     grid-area: top-three;
     box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://res.cloudinary.com/iwanttoknowwhatsavailable/image/upload/v1631709423/delivertoyourhome_iwhoe3.jpg')  no-repeat center center/cover;
 }
 .top-four{
     grid-area: top-four;
     box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://res.cloudinary.com/iwanttoknowwhatsavailable/image/upload/v1631709409/withaclick_cpmnyk.jpg')  no-repeat center center/cover;
 }
 .grid-container p{
     display: flex;
