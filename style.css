@@ -127,7 +127,7 @@ a{
     justify-content: center;
     box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
     flex-direction: column;
-    min-height: 700px;
+    min-height: 1000px;
     background: url('https://res.cloudinary.com/iwanttoknowwhatsavailable/image/upload/v1631709723/special-order_bve54l.jpg')  no-repeat center center/cover;
 }
 .top-one{
@@ -172,9 +172,9 @@ a{
     margin-top: 180px;
 }
 .btn{
-    /* display: flex;
-    justify-content:flex-end; */
-    background-color: black;
+    display: flex;
+    justify-content:flex-end;
+    background-color:#cd8282;
     color: white;
     padding: 0.6rem 1.3rem;
     border: none;
