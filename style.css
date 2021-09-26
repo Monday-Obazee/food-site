@@ -97,7 +97,7 @@ a{
     justify-content: center;
     align-items: center;
     color: blue;
-    position: absolute;
+    position: relative;
     padding-left: 20px;
 
 }
@@ -229,5 +229,5 @@ form select{
     pointer-events: fill;    
 }
 .foot-nav{
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
