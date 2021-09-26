@@ -200,7 +200,6 @@ form button{
     justify-content: center;
     padding: 10px;
     margin-top: 20px;
-    border-radius: 30%;
     color: black;
     background-color: #eee;
     align-items: center;
@@ -212,4 +211,23 @@ form select{
 #Menu{
     border: none;
     font-size: large;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cd8282;
+    place-items: center;
+    text-decoration: none;
+}
+.footer-nav li{
+    text-decoration: none;
+    list-style: none; 
+}
+.footer-nav li a{
+    color: #f7f3ef;
+    margin: 1rem;
+    pointer-events: fill;    
+}
+.foot-nav{
+    margin-top: 1rem;
 }
