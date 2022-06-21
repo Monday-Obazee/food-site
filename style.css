@@ -207,13 +207,16 @@ form p {
   display: flex;
   justify-content: center;
 }
+.btnhead {
+  text-align: center;
+  margin-top: 30px;
+  color: #000;
+}
 .submitbtn {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  margin: 10px 100px;
-  color: black;
+  padding: 10px 40px;
   background-color: #eee;
+  color: #000;
+  border-radius: 30px;
 }
 form select {
   margin-top: 20px;
