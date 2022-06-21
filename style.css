@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    width: 90%;
+    width: 100%;
     margin: auto;
    
 }
@@ -16,6 +16,7 @@ header{
     justify-content: space-between;
     height:10vh;
     align-items:center ;
+    padding: 30px;
     
 }
 .logo{
@@ -83,7 +84,7 @@ a{
     margin-top: 3rem;
 }
 .box{
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     /* border:2px solid grey; */
     border-color: none;
@@ -173,11 +174,21 @@ a{
 }
 .btn{
     display: flex;
-    justify-content:flex-end;
+    justify-content:center;
     background-color:#cd8282;
     color: white;
     padding: 0.6rem 1.3rem;
     border: none;
+}
+.btn1{
+    display: flex;
+    justify-content:center;
+    background-color:#cd8282;
+    color: white;
+    padding: 0.6rem 1.3rem;
+    border: none;
+    align-items: center;
+    width: 100%;
 }
 
 form {
@@ -218,6 +229,8 @@ form select{
     background-color: #cd8282;
     place-items: center;
     text-decoration: none;
+    width: 100%;
+    padding: 30px;
 }
 .footer-nav li{
     text-decoration: none;
@@ -230,4 +243,13 @@ form select{
 }
 .foot-nav{
     margin-top: .5rem;
+}
+footer{
+    width: 100%;
+}
+
+/* media quries */
+
+@media (max-width: 700px){
+    
 }
